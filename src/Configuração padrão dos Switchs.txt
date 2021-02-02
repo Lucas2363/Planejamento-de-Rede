@@ -1,0 +1,76 @@
+
+
+
+!Senha da Console: TI*Marte2077
+
+!Senha da Enable: SenhaMarciana7702
+
+
+en
+conf t
+
+
+!USUARIO
+username suporte-marte privilege 15 secret suporte@123
+line vty 0 15
+transport input ssh
+login local
+ex
+
+line console 0
+login local
+ex
+
+
+!NOME DO SW (muda)
+hostname SW-ESTUFA
+
+!VLANS
+vlan 50
+name SERVIDORES
+
+vlan 60
+name GERENCIAMENTO
+
+int f0/1
+switchport mode access
+switchport access vlan 10
+
+int f0/2
+switchport mode access
+switchport access vlan 10
+
+!INT E VLANS 
+interface range f0/21-24
+switchport mode trunk
+switchport trunk native vlan 99
+switchport trunk allowed vlan 10,20,30,40,50,60,99
+
+int f0/3
+switchport mode access
+switchport access vlan 60
+
+int g0/1
+switchport mode trunk  
+switchport trunk native vlan 99
+switchport trunk allowed vlan 10,20,30,40,50,60,99
+
+!VLAN60(muda o ip dela)
+int vlan 60
+ip address 192.168.0.236 255.255.255.240
+
+!DOMINIO
+ip domain-name coloniamarciana.local
+crypto key generate rsa general-key modulus 1024
+
+
+
+end
+wr
+
+
+
+
+
+
+
