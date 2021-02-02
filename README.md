@@ -1,7 +1,15 @@
 # Planejamento de Rede
 
-Este projeto foi apresentado pela escola SENAI de informática. Ele é o planejamento de uma rede principal ''Marciana'' onde temos varias sub-redes e vlans atribuidas a cada 
-um ipv4 e ipv6 e o uso de uma rota padrão para todas as redes.
+## Objetivo
+
+O objetivo deste projeto foi utilizar todos os conhecimentos de rede passados pela Escola SENAI de informática para planejar e montar uma rede com as seguintes caracteristicas:
+
+* Protocolos IPv4 e IPv6 em um esquema de pilha dupla
+* Divisão de sub-redes
+* Criação de vlans de suas respectivas redes
+* Rota padrão no roteador
+* Conexão via SSH
+* Configurações básicas de switchs e roteador
 
 ## Rede
 
