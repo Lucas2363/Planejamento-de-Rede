@@ -56,7 +56,7 @@ Na topologia foi adicionado o pc do suporte que tem como função acessar os dis
 
 tendo todos equipamentos e computadores configurados temos acesso ao site contido no server HTTP segue abaixo uma imagem do acesso ao site e da toplogia final
 
-![Alt Text](https://drive.google.com/thumbnail?id=1WGnb2qdjPpWGZxKwdhWFXtOZHw07q6jS&authuser=0&sz=w1325-h627)
+![Alt Text](https://i.ibb.co/4mF3WKz/entregavel-sprint-3.png)
 
 ![Alt Text](https://media-exp1.licdn.com/dms/image/C4D22AQFhag-CZfdP1w/feedshare-shrink_2048_1536/0/1611325326772?e=1615420800&v=beta&t=aVBXVYky6DTl-9tGhCD2dud2bYgIGakn2CihzHD0hLM)
 
