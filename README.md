@@ -61,6 +61,7 @@ Tendo todos os equipamentos e computadores configurados, temos acesso ao site co
 ![Alt Text](https://media-exp1.licdn.com/dms/image/C4D22AQFhag-CZfdP1w/feedshare-shrink_2048_1536/0/1611325326772?e=1615420800&v=beta&t=aVBXVYky6DTl-9tGhCD2dud2bYgIGakn2CihzHD0hLM)
 
 Autor: Lucas Silva Conrado
+Revisão: Sasha Sanches
 
 
 
